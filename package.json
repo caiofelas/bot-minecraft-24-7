@@ -1,0 +1,12 @@
+{
+  "name": "bot-carlinhos",
+  "version": "1.0.0",
+  "description": "Bot Carlinhos 24/7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.0"
+  }
+}
