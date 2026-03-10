@@ -2,16 +2,16 @@ const http = require('http');
 
 // Cria um servidor web simples para o Render não derrubar o bot
 http.createServer((req, res) => {
-  res.write("Carlinhos está vivo!");
+  res.write("Bot está vivo!");
   res.end();
 }).listen(8080);
 
 const mineflayer = require('mineflayer');
 
 const config = {
-    host: 'hellomello.mcsh.io', // Substitua pelo IP real
+    host: 'reservado.mcsh.io', // Substitua pelo IP real
     port: 25565,
-    username: 'Carlinhos',
+    username: 'Bot',
     version: '1.21.11'        // Ajuste conforme a versão do servidor
 };
 
@@ -29,7 +29,7 @@ function createBot() {
         setInterval(() => {
             const yaw = bot.entity.yaw + 0.5; // Rotaciona levemente a visão
             bot.look(yaw, bot.entity.pitch);
-            console.log('Carlinhos girou para evitar AFK kick.');
+            console.log('Bot girou para evitar AFK kick.');
         }, 60000); // 60.000ms = 1 minuto
     });
 
