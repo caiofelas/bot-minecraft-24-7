@@ -1,7 +1,7 @@
 {
-  "name": "bot-carlinhos",
+  "name": "bot-minecraft-24-7",
   "version": "1.0.0",
-  "description": "Bot Carlinhos 24/7",
+  "description": "Bot Minecraft 24/7",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
